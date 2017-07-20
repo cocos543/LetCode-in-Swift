@@ -5,6 +5,7 @@
 //  Created by Cocos on 2017/7/17.
 //  Copyright © 2017年 Cocos. All rights reserved.
 //
+import Foundation
 
 class Solution_Array_Partition_I {
     func arrayPairSum(_ nums: [Int]) -> Int {

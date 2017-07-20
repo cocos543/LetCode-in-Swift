@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Cocos. All rights reserved.
 //
 
-import Cocoa
+import Foundation
 
 class Solution_Encode_and_Decode_TinyURL {
     let dictStr = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
