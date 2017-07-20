@@ -1,12 +1,13 @@
 //
-//  main.swift
+//  Solution_Two_Sum.swift
 //  LetCodeInSwift
 //
-//  Created by Cocos on 2017/7/17.
+//  Created by Cocos on 2017/7/20.
 //  Copyright © 2017年 Cocos. All rights reserved.
 //
 
 import Foundation
+
 
 
 /*
@@ -44,14 +45,3 @@ class Solution {
 //        return [0, 0]
 //    }
 //}
-
-var arr = [Int]()
-for i in 0...25196 {
-    arr.append(i)
-}
-
-
-print(Solution().twoSum([2,4,6], 8))
-
-
-

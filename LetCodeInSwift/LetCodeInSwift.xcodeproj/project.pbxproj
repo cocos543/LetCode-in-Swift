@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		ED004F1B1F20A1A20075D4D8 /* NodeTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED004F1A1F20A1A20075D4D8 /* NodeTools.swift */; };
 		ED004F1D1F20A33C0075D4D8 /* Solution_Add_Two_Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED004F1C1F20A33C0075D4D8 /* Solution_Add_Two_Numbers.swift */; };
+		ED004F1F1F20BFC70075D4D8 /* Solution_Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED004F1E1F20BFC70075D4D8 /* Solution_Two_Sum.swift */; };
 		ED54675C1F1CAEEE0057CD03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54675B1F1CAEEE0057CD03 /* main.swift */; };
 		ED5467671F1CB89B0057CD03 /* Solution_Array_Partition_I.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5467661F1CB89B0057CD03 /* Solution_Array_Partition_I.swift */; };
 		ED5467691F1CB8C70057CD03 /* Solution_Hamming_Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5467681F1CB8C70057CD03 /* Solution_Hamming_Distance.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		ED004F1A1F20A1A20075D4D8 /* NodeTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeTools.swift; sourceTree = "<group>"; };
 		ED004F1C1F20A33C0075D4D8 /* Solution_Add_Two_Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Add_Two_Numbers.swift; sourceTree = "<group>"; };
+		ED004F1E1F20BFC70075D4D8 /* Solution_Two_Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Two_Sum.swift; sourceTree = "<group>"; };
 		ED5467581F1CAEEE0057CD03 /* LetCodeInSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LetCodeInSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED54675B1F1CAEEE0057CD03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		ED5467661F1CB89B0057CD03 /* Solution_Array_Partition_I.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Array_Partition_I.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				ED54675B1F1CAEEE0057CD03 /* main.swift */,
+				ED004F1E1F20BFC70075D4D8 /* Solution_Two_Sum.swift */,
 				ED5467661F1CB89B0057CD03 /* Solution_Array_Partition_I.swift */,
 				ED5467681F1CB8C70057CD03 /* Solution_Hamming_Distance.swift */,
 				ED54676A1F1CBA4E0057CD03 /* Solution_Encode_and_Decode_TinyURL.swift */,
@@ -140,6 +143,7 @@
 				ED5467671F1CB89B0057CD03 /* Solution_Array_Partition_I.swift in Sources */,
 				ED5467691F1CB8C70057CD03 /* Solution_Hamming_Distance.swift in Sources */,
 				ED004F1D1F20A33C0075D4D8 /* Solution_Add_Two_Numbers.swift in Sources */,
+				ED004F1F1F20BFC70075D4D8 /* Solution_Two_Sum.swift in Sources */,
 				ED54675C1F1CAEEE0057CD03 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
