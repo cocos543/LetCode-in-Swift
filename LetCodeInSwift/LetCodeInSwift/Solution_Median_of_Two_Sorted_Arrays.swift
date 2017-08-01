@@ -1,12 +1,13 @@
 //
-//  main.swift
+//  Solution_Median_of_Two_Sorted_Arrays.swift
 //  LetCodeInSwift
 //
-//  Created by Cocos on 2017/7/17.
+//  Created by Cocos on 2017/8/1.
 //  Copyright © 2017年 Cocos. All rights reserved.
 //
 
 import Foundation
+
 
 
 /*
@@ -17,7 +18,7 @@ import Foundation
  */
 
 
-class Solution {
+class Solution_Median_of_Two_Sorted_Arrays {
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
         let n = nums1.count, m = nums2.count
         let count = n > m ? n : m
@@ -153,22 +154,6 @@ class Solution {
                 }
             }
         }
-        
         return 0
     }
 }
-
-print(Solution().findMedianSortedArrays([1, 2], [3, 4, 5]))
-
-print(Solution().findMedianSortedArrays([1, 3], [2, 4, 5]))
-
-//print(Solution().findMedianSortedArrays([2], [1, 3, 4, 5]))
-
-//print(Solution().findMedianSortedArrays([1], [2, 3, 4, 5]))
-
-//print(Solution().findMedianSortedArrays([2, 3, 4, 5], [1]))
-
-//print(Solution().findMedianSortedArrays([1, 2, 3], [4, 5]))
-
-
-

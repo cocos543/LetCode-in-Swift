@@ -14,6 +14,7 @@
 		ED5467671F1CB89B0057CD03 /* Solution_Array_Partition_I.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5467661F1CB89B0057CD03 /* Solution_Array_Partition_I.swift */; };
 		ED5467691F1CB8C70057CD03 /* Solution_Hamming_Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5467681F1CB8C70057CD03 /* Solution_Hamming_Distance.swift */; };
 		ED54676B1F1CBA4E0057CD03 /* Solution_Encode_and_Decode_TinyURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54676A1F1CBA4E0057CD03 /* Solution_Encode_and_Decode_TinyURL.swift */; };
+		ED7BF8F21F308DD3000902A6 /* Solution_Median_of_Two_Sorted_Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7BF8F11F308DD3000902A6 /* Solution_Median_of_Two_Sorted_Arrays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		ED5467661F1CB89B0057CD03 /* Solution_Array_Partition_I.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Array_Partition_I.swift; sourceTree = "<group>"; };
 		ED5467681F1CB8C70057CD03 /* Solution_Hamming_Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Hamming_Distance.swift; sourceTree = "<group>"; };
 		ED54676A1F1CBA4E0057CD03 /* Solution_Encode_and_Decode_TinyURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Encode_and_Decode_TinyURL.swift; sourceTree = "<group>"; };
+		ED7BF8F11F308DD3000902A6 /* Solution_Median_of_Two_Sorted_Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Median_of_Two_Sorted_Arrays.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				ED5467681F1CB8C70057CD03 /* Solution_Hamming_Distance.swift */,
 				ED54676A1F1CBA4E0057CD03 /* Solution_Encode_and_Decode_TinyURL.swift */,
 				ED004F1C1F20A33C0075D4D8 /* Solution_Add_Two_Numbers.swift */,
+				ED7BF8F11F308DD3000902A6 /* Solution_Median_of_Two_Sorted_Arrays.swift */,
 			);
 			path = LetCodeInSwift;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				ED5467671F1CB89B0057CD03 /* Solution_Array_Partition_I.swift in Sources */,
 				ED5467691F1CB8C70057CD03 /* Solution_Hamming_Distance.swift in Sources */,
 				ED004F1D1F20A33C0075D4D8 /* Solution_Add_Two_Numbers.swift in Sources */,
+				ED7BF8F21F308DD3000902A6 /* Solution_Median_of_Two_Sorted_Arrays.swift in Sources */,
 				ED004F1F1F20BFC70075D4D8 /* Solution_Two_Sum.swift in Sources */,
 				ED54675C1F1CAEEE0057CD03 /* main.swift in Sources */,
 			);
