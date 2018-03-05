@@ -1,14 +1,14 @@
 //
-//  main.swift
+//  Solution_Reverse_Integer.swift
 //  LetCodeInSwift
 //
-//  Created by Cocos on 2017/7/17.
-//  Copyright © 2017年 Cocos. All rights reserved.
+//  Created by Cocos on 2018/3/5.
+//  Copyright © 2018年 Cocos. All rights reserved.
 //
 
 import Foundation
 
-class Solution {
+class Solution_Reverse_Integer {
     func reverse(_ x: Int) -> Int {
         var revX = 0
         var vX: Int
@@ -41,7 +41,8 @@ class Solution {
     }
 }
 
-let s = Solution()
-print(s.reverse(-1534236469))
-print(s.reverse(1534))
-print(s.reverse(0))
+//let s = Solution()
+//print(s.reverse(-1534236469))
+//print(s.reverse(1534))
+//print(s.reverse(0))
+
