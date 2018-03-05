@@ -10,6 +10,7 @@
 		ED004F1B1F20A1A20075D4D8 /* NodeTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED004F1A1F20A1A20075D4D8 /* NodeTools.swift */; };
 		ED004F1D1F20A33C0075D4D8 /* Solution_Add_Two_Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED004F1C1F20A33C0075D4D8 /* Solution_Add_Two_Numbers.swift */; };
 		ED004F1F1F20BFC70075D4D8 /* Solution_Two_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED004F1E1F20BFC70075D4D8 /* Solution_Two_Sum.swift */; };
+		ED52E8D21F33141900F9ED18 /* Solution_Longest_Palindromic_Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52E8D11F33141900F9ED18 /* Solution_Longest_Palindromic_Substring.swift */; };
 		ED54675C1F1CAEEE0057CD03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54675B1F1CAEEE0057CD03 /* main.swift */; };
 		ED5467671F1CB89B0057CD03 /* Solution_Array_Partition_I.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5467661F1CB89B0057CD03 /* Solution_Array_Partition_I.swift */; };
 		ED5467691F1CB8C70057CD03 /* Solution_Hamming_Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5467681F1CB8C70057CD03 /* Solution_Hamming_Distance.swift */; };
@@ -33,8 +34,9 @@
 		ED004F1A1F20A1A20075D4D8 /* NodeTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeTools.swift; sourceTree = "<group>"; };
 		ED004F1C1F20A33C0075D4D8 /* Solution_Add_Two_Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Add_Two_Numbers.swift; sourceTree = "<group>"; };
 		ED004F1E1F20BFC70075D4D8 /* Solution_Two_Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Two_Sum.swift; sourceTree = "<group>"; };
+		ED52E8D11F33141900F9ED18 /* Solution_Longest_Palindromic_Substring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Longest_Palindromic_Substring.swift; sourceTree = "<group>"; };
 		ED5467581F1CAEEE0057CD03 /* LetCodeInSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LetCodeInSwift; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED54675B1F1CAEEE0057CD03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ED54675B1F1CAEEE0057CD03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = LetCodeInSwift/main.swift; sourceTree = "<group>"; };
 		ED5467661F1CB89B0057CD03 /* Solution_Array_Partition_I.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Array_Partition_I.swift; sourceTree = "<group>"; };
 		ED5467681F1CB8C70057CD03 /* Solution_Hamming_Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Hamming_Distance.swift; sourceTree = "<group>"; };
 		ED54676A1F1CBA4E0057CD03 /* Solution_Encode_and_Decode_TinyURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Encode_and_Decode_TinyURL.swift; sourceTree = "<group>"; };
@@ -56,7 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				ED004F1A1F20A1A20075D4D8 /* NodeTools.swift */,
+				ED54675B1F1CAEEE0057CD03 /* main.swift */,
 				ED54675A1F1CAEEE0057CD03 /* LetCodeInSwift */,
+				EDED4E2D1F6A1D0300E0F8D5 /* Extend */,
 				ED5467591F1CAEEE0057CD03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,15 +76,22 @@
 		ED54675A1F1CAEEE0057CD03 /* LetCodeInSwift */ = {
 			isa = PBXGroup;
 			children = (
-				ED54675B1F1CAEEE0057CD03 /* main.swift */,
 				ED004F1E1F20BFC70075D4D8 /* Solution_Two_Sum.swift */,
 				ED5467661F1CB89B0057CD03 /* Solution_Array_Partition_I.swift */,
 				ED5467681F1CB8C70057CD03 /* Solution_Hamming_Distance.swift */,
 				ED54676A1F1CBA4E0057CD03 /* Solution_Encode_and_Decode_TinyURL.swift */,
 				ED004F1C1F20A33C0075D4D8 /* Solution_Add_Two_Numbers.swift */,
 				ED7BF8F11F308DD3000902A6 /* Solution_Median_of_Two_Sorted_Arrays.swift */,
+				ED52E8D11F33141900F9ED18 /* Solution_Longest_Palindromic_Substring.swift */,
 			);
 			path = LetCodeInSwift;
+			sourceTree = "<group>";
+		};
+		EDED4E2D1F6A1D0300E0F8D5 /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED54676B1F1CBA4E0057CD03 /* Solution_Encode_and_Decode_TinyURL.swift in Sources */,
+				ED52E8D21F33141900F9ED18 /* Solution_Longest_Palindromic_Substring.swift in Sources */,
 				ED004F1B1F20A1A20075D4D8 /* NodeTools.swift in Sources */,
 				ED5467671F1CB89B0057CD03 /* Solution_Array_Partition_I.swift in Sources */,
 				ED5467691F1CB8C70057CD03 /* Solution_Hamming_Distance.swift in Sources */,

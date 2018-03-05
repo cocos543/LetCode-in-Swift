@@ -26,11 +26,11 @@ class Solution_Encode_and_Decode_TinyURL {
         var count = seq
         seq += 1
         while count != 0 {
-            res += String(dictStr[dictStr.index(dictStr.startIndex, offsetBy: count % dictStr.characters.count)])
-            count /= dictStr.characters.count
+            res = String(dictStr[dictStr.index(dictStr.startIndex, offsetBy: count % dictStr.count)]) + res
+            count /= dictStr.count
         }
         
-        for _ in res.characters.count ..< shortLength {
+        for _ in res.count ..< shortLength {
             res = "0" + res
         }
         
