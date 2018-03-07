@@ -17,6 +17,7 @@
 		ED5467691F1CB8C70057CD03 /* Solution_Hamming_Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5467681F1CB8C70057CD03 /* Solution_Hamming_Distance.swift */; };
 		ED54676B1F1CBA4E0057CD03 /* Solution_Encode_and_Decode_TinyURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54676A1F1CBA4E0057CD03 /* Solution_Encode_and_Decode_TinyURL.swift */; };
 		ED7BF8F21F308DD3000902A6 /* Solution_Median_of_Two_Sorted_Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7BF8F11F308DD3000902A6 /* Solution_Median_of_Two_Sorted_Arrays.swift */; };
+		ED94E8FA204F8B87009601A9 /* Solution_Jewels_and_Stones.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94E8F9204F8B87009601A9 /* Solution_Jewels_and_Stones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		ED5467681F1CB8C70057CD03 /* Solution_Hamming_Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Hamming_Distance.swift; sourceTree = "<group>"; };
 		ED54676A1F1CBA4E0057CD03 /* Solution_Encode_and_Decode_TinyURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Encode_and_Decode_TinyURL.swift; sourceTree = "<group>"; };
 		ED7BF8F11F308DD3000902A6 /* Solution_Median_of_Two_Sorted_Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution_Median_of_Two_Sorted_Arrays.swift; sourceTree = "<group>"; };
+		ED94E8F9204F8B87009601A9 /* Solution_Jewels_and_Stones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_Jewels_and_Stones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				ED7BF8F11F308DD3000902A6 /* Solution_Median_of_Two_Sorted_Arrays.swift */,
 				ED52E8D11F33141900F9ED18 /* Solution_Longest_Palindromic_Substring.swift */,
 				ED08C344204D3D8F0058CA74 /* Solution_Reverse_Integer.swift */,
+				ED94E8F9204F8B87009601A9 /* Solution_Jewels_and_Stones.swift */,
 			);
 			path = LetCodeInSwift;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				ED52E8D21F33141900F9ED18 /* Solution_Longest_Palindromic_Substring.swift in Sources */,
 				ED004F1B1F20A1A20075D4D8 /* NodeTools.swift in Sources */,
 				ED5467671F1CB89B0057CD03 /* Solution_Array_Partition_I.swift in Sources */,
+				ED94E8FA204F8B87009601A9 /* Solution_Jewels_and_Stones.swift in Sources */,
 				ED08C345204D3D8F0058CA74 /* Solution_Reverse_Integer.swift in Sources */,
 				ED5467691F1CB8C70057CD03 /* Solution_Hamming_Distance.swift in Sources */,
 				ED004F1D1F20A33C0075D4D8 /* Solution_Add_Two_Numbers.swift in Sources */,

@@ -1,14 +1,14 @@
 //
-//  main.swift
+//  Solution_Jewels_and_Stones.swift
 //  LetCodeInSwift
 //
-//  Created by Cocos on 2017/7/17.
-//  Copyright © 2017年 Cocos. All rights reserved.
+//  Created by Cocos on 2018/3/7.
+//  Copyright © 2018年 Cocos. All rights reserved.
 //
 
 import Foundation
 
-class Solution {
+class Solution_Jewels_and_Stones {
     func numJewelsInStones(_ J: String, _ S: String) -> Int {
         //创建一个字典, 把石头宝石的类型作为key
         var allStoneDic: [Character : Int] = [Character : Int]()
@@ -31,7 +31,6 @@ class Solution {
         return jewelsAmount
     }
 }
-var s = Solution()
-print(s.numJewelsInStones("", "abbcccdddd"))
-
+//var s = Solution()
+//print(s.numJewelsInStones("", "abbcccdddd"))
 
