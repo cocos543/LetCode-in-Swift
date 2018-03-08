@@ -8,6 +8,20 @@
 
 import Foundation
 
+//Definition for a binary tree node.
+public class TreeNode {
+    public var val: Int
+    public var left: TreeNode?
+    public var right: TreeNode?
+    
+    public init(_ val: Int) {
+        self.val = val
+        self.left = nil
+        self.right = nil
+    }
+}
+
+
 class Solution_Maximum_Binary_Tree {
     func constructMaximumBinaryTree(_ nums: [Int]) -> TreeNode? {
         //这里需要条件来判断递归终止

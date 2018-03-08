@@ -1,33 +1,31 @@
 //
-//  main.swift
+//  Solution_Judge_Route_Circle.swift
 //  LetCodeInSwift
 //
-//  Created by Cocos on 2017/7/17.
-//  Copyright © 2017年 Cocos. All rights reserved.
+//  Created by Cocos on 2018/3/8.
+//  Copyright © 2018年 Cocos. All rights reserved.
 //
 
 import Foundation
 
-class Solution {
+class Solution_Judge_Route_Circle {
     func judgeCircle(_ moves: String) -> Bool {
         var x = 0, y = 0
         for c in moves {
             switch c {
-                case "U":
+            case "U":
                 y += 1
-                case "D":
+            case "D":
                 y -= 1
-                case "L":
+            case "L":
                 x -= 1
-                case "R":
+            case "R":
                 x += 1
-                default:break
+            default:break
             }
         }
         return x == 0 && y == 0
     }
 }
 
-print(Solution().judgeCircle("LL"))
-
-
+//print(Solution().judgeCircle("LL"))
