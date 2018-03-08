@@ -1,28 +1,16 @@
 //
-//  main.swift
+//  Solution_Maximum Binary Tree.swift
 //  LetCodeInSwift
 //
-//  Created by Cocos on 2017/7/17.
-//  Copyright © 2017年 Cocos. All rights reserved.
+//  Created by Cocos on 2018/3/7.
+//  Copyright © 2018年 Cocos. All rights reserved.
 //
 
 import Foundation
 
-//Definition for a binary tree node.
-public class TreeNode {
-    public var val: Int
-    public var left: TreeNode?
-    public var right: TreeNode?
-    
-    public init(_ val: Int) {
-        self.val = val
-        self.left = nil
-        self.right = nil
-    }
-}
-
-class Solution {
+class Solution_Maximum_Binary_Tree {
     func constructMaximumBinaryTree(_ nums: [Int]) -> TreeNode? {
+        //这里需要条件来判断递归终止
         if nums.count == 0 {
             return nil
         }
@@ -35,5 +23,6 @@ class Solution {
     }
 }
 
-let s = Solution()
-let node = s.constructMaximumBinaryTree([3,2,1,6,0,5])
+//private let s = Solution()
+//private let node = s.constructMaximumBinaryTree([3,2,1,6,0,5])
+
