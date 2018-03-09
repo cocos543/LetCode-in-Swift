@@ -21,6 +21,7 @@
 		ED94E8FA204F8B87009601A9 /* Solution_Jewels_and_Stones.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94E8F9204F8B87009601A9 /* Solution_Jewels_and_Stones.swift */; };
 		ED94E8FC204FF4B0009601A9 /* Solution_Maximum_Binary_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94E8FB204FF4B0009601A9 /* Solution_Maximum_Binary_Tree.swift */; };
 		EDA8734A205228A3004F2950 /* BinaryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA87349205228A3004F2950 /* BinaryTreeNode.swift */; };
+		EDA8734D20526E56004F2950 /* Solution_Merge_Two_Binary_Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8734C20526E56004F2950 /* Solution_Merge_Two_Binary_Trees.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 		ED94E8F9204F8B87009601A9 /* Solution_Jewels_and_Stones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_Jewels_and_Stones.swift; sourceTree = "<group>"; };
 		ED94E8FB204FF4B0009601A9 /* Solution_Maximum_Binary_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_Maximum_Binary_Tree.swift; sourceTree = "<group>"; };
 		EDA87349205228A3004F2950 /* BinaryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeNode.swift; sourceTree = "<group>"; };
+		EDA8734C20526E56004F2950 /* Solution_Merge_Two_Binary_Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_Merge_Two_Binary_Trees.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				ED94E8F9204F8B87009601A9 /* Solution_Jewels_and_Stones.swift */,
 				ED94E8FB204FF4B0009601A9 /* Solution_Maximum_Binary_Tree.swift */,
 				ED0F039F20513D8A00280A0D /* Solution_Judge_Route_Circle.swift */,
+				EDA8734C20526E56004F2950 /* Solution_Merge_Two_Binary_Trees.swift */,
 			);
 			path = LetCodeInSwift;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				ED94E8FA204F8B87009601A9 /* Solution_Jewels_and_Stones.swift in Sources */,
 				ED08C345204D3D8F0058CA74 /* Solution_Reverse_Integer.swift in Sources */,
 				ED5467691F1CB8C70057CD03 /* Solution_Hamming_Distance.swift in Sources */,
+				EDA8734D20526E56004F2950 /* Solution_Merge_Two_Binary_Trees.swift in Sources */,
 				ED004F1D1F20A33C0075D4D8 /* Solution_Add_Two_Numbers.swift in Sources */,
 				ED0F03A020513D8A00280A0D /* Solution_Judge_Route_Circle.swift in Sources */,
 				ED94E8FC204FF4B0009601A9 /* Solution_Maximum_Binary_Tree.swift in Sources */,
