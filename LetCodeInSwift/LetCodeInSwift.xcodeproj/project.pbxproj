@@ -22,6 +22,7 @@
 		ED94E8FC204FF4B0009601A9 /* Solution_Maximum_Binary_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94E8FB204FF4B0009601A9 /* Solution_Maximum_Binary_Tree.swift */; };
 		EDA8734A205228A3004F2950 /* BinaryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA87349205228A3004F2950 /* BinaryTreeNode.swift */; };
 		EDA8734D20526E56004F2950 /* Solution_Merge_Two_Binary_Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8734C20526E56004F2950 /* Solution_Merge_Two_Binary_Trees.swift */; };
+		EDA8734F20527EB6004F2950 /* Solution_Self_Dividing_Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8734E20527EB6004F2950 /* Solution_Self_Dividing_Numbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		ED94E8FB204FF4B0009601A9 /* Solution_Maximum_Binary_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_Maximum_Binary_Tree.swift; sourceTree = "<group>"; };
 		EDA87349205228A3004F2950 /* BinaryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeNode.swift; sourceTree = "<group>"; };
 		EDA8734C20526E56004F2950 /* Solution_Merge_Two_Binary_Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_Merge_Two_Binary_Trees.swift; sourceTree = "<group>"; };
+		EDA8734E20527EB6004F2950 /* Solution_Self_Dividing_Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_Self_Dividing_Numbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				ED94E8FB204FF4B0009601A9 /* Solution_Maximum_Binary_Tree.swift */,
 				ED0F039F20513D8A00280A0D /* Solution_Judge_Route_Circle.swift */,
 				EDA8734C20526E56004F2950 /* Solution_Merge_Two_Binary_Trees.swift */,
+				EDA8734E20527EB6004F2950 /* Solution_Self_Dividing_Numbers.swift */,
 			);
 			path = LetCodeInSwift;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				ED0F03A020513D8A00280A0D /* Solution_Judge_Route_Circle.swift in Sources */,
 				ED94E8FC204FF4B0009601A9 /* Solution_Maximum_Binary_Tree.swift in Sources */,
 				ED7BF8F21F308DD3000902A6 /* Solution_Median_of_Two_Sorted_Arrays.swift in Sources */,
+				EDA8734F20527EB6004F2950 /* Solution_Self_Dividing_Numbers.swift in Sources */,
 				ED004F1F1F20BFC70075D4D8 /* Solution_Two_Sum.swift in Sources */,
 				ED54675C1F1CAEEE0057CD03 /* main.swift in Sources */,
 			);
