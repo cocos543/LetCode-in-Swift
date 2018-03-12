@@ -8,8 +8,7 @@
 
 import Foundation
 
-
-class Solution {
+class Solution_Rotate_String {
     func rotateString(_ A: String, _ B: String) -> Bool {
         guard A.count == B.count else {
             return false
