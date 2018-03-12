@@ -1,12 +1,13 @@
 //
-//  main.swift
+//  Solution_Rotate_String.swift
 //  LetCodeInSwift
 //
-//  Created by Cocos on 2017/7/17.
-//  Copyright © 2017年 Cocos. All rights reserved.
+//  Created by Cocos on 2018/3/12.
+//  Copyright © 2018年 Cocos. All rights reserved.
 //
 
 import Foundation
+
 
 class Solution {
     func rotateString(_ A: String, _ B: String) -> Bool {
@@ -21,5 +22,5 @@ class Solution {
 }
 
 
-let s = Solution()
-print(s.rotateString("abcde", "cdeab"))
+//let s = Solution()
+//print(s.rotateString("abcde", "cdeab"))
