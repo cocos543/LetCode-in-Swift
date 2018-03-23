@@ -17,7 +17,7 @@ class ListNode: NSObject {
     }
 }
 
-class NodeTools: NSObject {
+class NodeTools {
     func findPreOne( _ head: ListNode, _ n: ListNode) -> ListNode? {
         guard head != n else {
             return nil

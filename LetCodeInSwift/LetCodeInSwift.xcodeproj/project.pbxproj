@@ -26,6 +26,7 @@
 		EDA8734A205228A3004F2950 /* BinaryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA87349205228A3004F2950 /* BinaryTreeNode.swift */; };
 		EDA8734D20526E56004F2950 /* Solution_Merge_Two_Binary_Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8734C20526E56004F2950 /* Solution_Merge_Two_Binary_Trees.swift */; };
 		EDA8734F20527EB6004F2950 /* Solution_Self_Dividing_Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8734E20527EB6004F2950 /* Solution_Self_Dividing_Numbers.swift */; };
+		EDEC59F02064F6C200E6306D /* Solution_Complex_Number_Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEC59EF2064F6C200E6306D /* Solution_Complex_Number_Multiplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,7 @@
 		EDA87349205228A3004F2950 /* BinaryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeNode.swift; sourceTree = "<group>"; };
 		EDA8734C20526E56004F2950 /* Solution_Merge_Two_Binary_Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_Merge_Two_Binary_Trees.swift; sourceTree = "<group>"; };
 		EDA8734E20527EB6004F2950 /* Solution_Self_Dividing_Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_Self_Dividing_Numbers.swift; sourceTree = "<group>"; };
+		EDEC59EF2064F6C200E6306D /* Solution_Complex_Number_Multiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_Complex_Number_Multiplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				ED9AAD11205694A600D4B610 /* Solution_Rotate_String.swift */,
 				ED5CD6CD20590462004D4D89 /* Solution_All_Paths_From_Source_to_Target.swift */,
 				ED37E441205FBF5E0097A48A /* Solution_Partition_Labels.swift */,
+				EDEC59EF2064F6C200E6306D /* Solution_Complex_Number_Multiplication.swift */,
 			);
 			path = LetCodeInSwift;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDEC59F02064F6C200E6306D /* Solution_Complex_Number_Multiplication.swift in Sources */,
 				ED54676B1F1CBA4E0057CD03 /* Solution_Encode_and_Decode_TinyURL.swift in Sources */,
 				ED52E8D21F33141900F9ED18 /* Solution_Longest_Palindromic_Substring.swift in Sources */,
 				ED004F1B1F20A1A20075D4D8 /* NodeTools.swift in Sources */,
